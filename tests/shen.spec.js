@@ -9,3 +9,4 @@ test.only('Checking Title',async({page})=>
     console.log(await page.title());
     await expect(page).toHaveTitle("Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
 })
+//
